@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The digital gender gap</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main">
+    <div class="left">
+        <div class="title">The digital gender gap</div>
+        <div class="btn-group">
+    <button class="btn active" id='int'>Internet</button>
+    <button class="btn" id='int-gap'>Internet Gap</button>
+    <button class="btn" id='mobile-gap'>Mobile Gap</button>
+    <button class="btn sort" id='sort'>Sort</button>
+</div>
+<div class="description">The percentage of households with internet access at home. Access may be
+    via a computer, but can also include mobile phones, digital TVs etc.</div>
+<svg class="legend"></svg>
+</div>
+    <div class="viz" id="viz"></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="./MM45.js"></script>
+</body>
+</html>
