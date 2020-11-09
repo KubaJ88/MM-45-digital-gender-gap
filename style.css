@@ -162,6 +162,18 @@ button {
      
   }
 
+
+  .source { 
+      /* position: absolute; */
+      /* bottom: 20px; */
+      /* right: 5px; */
+      margin-top: 4rem;
+      margin-right: 2rem;
+      font-size: .8rem;
+      text-align: right;
+    
+  }
+
   
   
   @media only screen and (max-width: 1700px) {
