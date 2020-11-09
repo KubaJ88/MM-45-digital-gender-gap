@@ -686,4 +686,3 @@ const myData = async () => {
 
 gsap.from(".title", {duration: 2, opacity: 0, y: 50, ease:'slow', onComplete: myData});
 
-gsap.on
